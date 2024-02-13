@@ -5,18 +5,18 @@ export const PRODUCT_CATEGORIES = [
     featured: [
       {
         name: "Editor Picks",
-        href: "#",
-        imageSrc: "/nav/ui-kits/mixed.jpg",
+        href: "/products?category=valentines_day",
+        imageSrc: "/nav/valentines_day/booked.png",
       },
       {
         name: "New Arrivals",
-        href: "#",
-        imageSrc: "/nav/ui-kits/blue.jpg",
+        href: "/products?category=valentines_day&sort=desc",
+        imageSrc: "/nav/valentines_day/reading.png",
       },
       {
         name: "Bestsellers",
-        href: "#",
-        imageSrc: "/nav/ui-kits/purple.jpg",
+        href: "/products?category=valentines_day",
+        imageSrc: "/nav/valentines_day/valentines.png",
       },
     ],
   },
@@ -26,18 +26,18 @@ export const PRODUCT_CATEGORIES = [
     featured: [
       {
         name: "Favorite Icon Picks",
-        href: "#",
-        imageSrc: "/nav/icons/picks.jpg",
+        href: "/products?category=fantasy",
+        imageSrc: "/nav/fantasy/picks.png",
       },
       {
         name: "New Arrivals",
-        href: "#",
-        imageSrc: "/nav/icons/new.jpg",
+        href: "/products?category=fantasy&sort=desc",
+        imageSrc: "/nav/fantasy/new.png",
       },
       {
-        name: "Bestselling Icons",
-        href: "#",
-        imageSrc: "/nav/icons/bestsellers.jpg",
+        name: "Bestselling Fantasy Merch",
+        href: "/products?category=fantasy",
+        imageSrc: "/nav/fantasy/bestsellers.png",
       },
     ],
   },

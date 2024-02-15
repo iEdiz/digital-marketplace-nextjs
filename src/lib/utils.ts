@@ -58,7 +58,7 @@ export function constructMetadata({
       creator: "@PikachuCold",
     },
     icons,
-    metadataBase: new URL("https://megurixshop.up.railway.app"),
+    metadataBase: new URL("https://digital-marketplace-nextjs.vercel.app"),
     ...(noIndex && {
       robots: {
         index: false,

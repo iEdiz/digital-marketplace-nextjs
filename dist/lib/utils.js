@@ -75,7 +75,7 @@ function constructMetadata(_a) {
         creator: "@PikachuCold",
       },
       icons: icons,
-      metadataBase: new URL("https://digital-marketplace-nextjs.vercel.app"),
+      metadataBase: new URL("https://digital-marketplace-black.vercel.app"),
     },
     noIndex && {
       robots: {
